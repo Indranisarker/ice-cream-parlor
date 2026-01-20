@@ -5,40 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49554018-b50d-4f92-ae73-64186a478a50" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ice-cream-parlor.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Containers/IceCreamBuilder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Containers/IceCreamBuilder.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/cherry.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/ice-cream-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/react.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Body/Body.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Builder/Builder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Builder/Builder.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Builder/Items/Item/Item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Builder/Items/Item/Item.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Builder/Items/Items.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Builder/Price/TotalPrice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Builder/Price/TotalPrice.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Navbar.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/IceCream/IceCream.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/IceCream/IceCream.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/IceCream/Scoop/Scoop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/IceCream/Scoop/Scoop.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Modal/Modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Modal/Modal.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Containers/IceCreamBuilder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/IceCreamBuilder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Builder/Builder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Builder/Builder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Navbar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Modal/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal/Modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Modal/Modal.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal/Modal.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +78,7 @@
       <workItem from="1768476421638" duration="2075000" />
       <workItem from="1768709903690" duration="12280000" />
       <workItem from="1768813831336" duration="6658000" />
-      <workItem from="1768883222519" duration="10763000" />
+      <workItem from="1768883222519" duration="16468000" />
     </task>
     <servers />
   </component>

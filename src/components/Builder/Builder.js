@@ -5,7 +5,7 @@ import TotalPrice from "./Price/TotalPrice";
 import Modal from "../Modal/Modal";
 
 
-const Builder = ({items, prices, add, remove, scoops}) => {
+const Builder = ({items, prices, add, remove, scoops, openModal, closeModal, modal}) => {
     return (
         <div>
             <div className={classes.builder}>
@@ -13,13 +13,13 @@ const Builder = ({items, prices, add, remove, scoops}) => {
                 <Items item={items} add={add} remove={remove} scoops={scoops}/>
                 <TotalPrice price={prices} />
 
-            <button type="button" className={[classes.order, 'rounded'].join(' ')}>
+            <button type="button" onClick={openModal} className={[classes.order, 'rounded'].join(' ')}>
                 Add to Cart
             </button>
             </div>
-            <Modal>
-                Hello, Please confirm your order!
-            </Modal>
+            {modal && (
+                <Modal onClose={closeModal}></Modal>
+            )}
         </div>
     );
 }

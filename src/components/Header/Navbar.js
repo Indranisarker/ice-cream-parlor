@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./Navbar.module.css";
 import logo from "../../assets/images/ice-cream-logo.png";
-import reactLogo from "../../assets/images/react.svg";
+import userLogo from "../../assets/images/user-logo.png";
 
 const Navbar = () => {
     return(
@@ -11,7 +11,7 @@ const Navbar = () => {
                     <img className={classes.logo} src={logo} alt="Logo"/>
                 </div>
                 <div className="textRight">
-                    <img src={reactLogo} alt="React" className={classes.reactLogo}/><strong>React</strong>
+                    <img src={userLogo} alt="React" className={classes.userLogo}/>
                 </div>
             </div>
         </header>

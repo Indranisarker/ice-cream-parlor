@@ -14,6 +14,7 @@ class IceCreamBuilder extends Component {
         },
         scoops:[],
         totalPrice:0,
+        isModalOpen:false
     }
     addScoop = (scoop) =>{
         const {scoops, items} = this.state;
@@ -39,15 +40,25 @@ class IceCreamBuilder extends Component {
 
         })
     }
+
+    openModal = () => {
+            this.setState({isModalOpen: true});
+    }
+    closeModal = () => {
+        this.setState({isModalOpen:false});
+    }
     render() {
-        const {items, totalPrice, scoops} = this.state;
+        const {items, totalPrice, scoops, isModalOpen} = this.state;
         return (
             <div className={['container', classes.container].join(' ')}>
                 <IceCream scoop={scoops}/>
                 <Builder items={items} prices={totalPrice}
                          add={this.addScoop}
                          remove={this.removeScoop}
-                         scoops={scoops} />
+                         scoops={scoops}
+                         openModal={this.openModal}
+                         closeModal={this.closeModal}
+                         modal={isModalOpen}/>
             </div>
         );
     }
